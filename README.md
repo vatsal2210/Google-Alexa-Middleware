@@ -32,8 +32,6 @@ Enable Webhook integration and copy your `ngrok` URL or `Lambda` URL.
 
 ## Webhook
 
-### /google
-
 - Google intent request and response parsing
 
 ### Intents for dialogflow
@@ -52,7 +50,7 @@ Name: `Default Fallback Intent`
 
 Name: `help`
 
-### Exit Conversation 
+#### Exit Conversation 
 
 Name: `exit_conversation`
 
