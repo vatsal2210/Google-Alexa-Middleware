@@ -12,15 +12,49 @@ Google Assistant and Alexa app middleware in Node.js
 * Step 3: Run `npm run start:app`, this will start the local app on port `8081` by default.
 * Step 3.1: (If working locally), on a separate terminal run `ngrok http port_number` - `ngrok http 8080` and write down the url.
 
+## Set up on Dialogflow
+
+### Step 1:
+
+Go to `https://dialogflow.cloud.google.com/`
+
+### Step 2:
+
+Select your Diagflow project and Go to `Fulfillment`
+
+![Fulfillment Option](./assets/fulfillment.png)
+
+### Step 3:
+
+Enable Webhook integration and copy your `ngrok` URL or `Lambda` URL.
+
+![Enable Webhook] (./assets/enable-webhook.png)
+
 ## Webhook
 
 ### /google
 
 - Google intent request and response parsing
 
-### Intents
+### Intents for dialogflow
 
 - Check `routes\google.js` and logic in `controller\google.js`
+
+#### Welcome Intent
+
+Name: `GOOGLE_ASSISTANT_WELCOME` OR `Default Welcome Intent`
+
+#### Fallback Intent
+
+Name: `Default Fallback Intent`
+
+#### Help Intent
+
+Name: `help`
+
+### Exit Conversation 
+
+Name: `exit_conversation`
 
 ## Recommendation Library
 
