@@ -1,4 +1,5 @@
 # Google-Alexa-Middleware
+
 Google Assistant and Alexa app middleware in Node.js
 
 ## Requirements
@@ -14,17 +15,17 @@ Google Assistant and Alexa app middleware in Node.js
 
 ## Set up on Dialogflow
 
-### Step 1:
+### Step 1
 
 Go to `https://dialogflow.cloud.google.com/`
 
-### Step 2:
+### Step 2
 
 Select your Diagflow project and Go to `Fulfillment`
 
 ![Fulfillment Option](./assets/fulfillment.png)
 
-### Step 3:
+### Step 3
 
 Enable Webhook integration and copy your `ngrok` URL or `Lambda` URL.
 
@@ -36,7 +37,9 @@ Enable Webhook integration and copy your `ngrok` URL or `Lambda` URL.
 
 ### Intents for dialogflow
 
-- Check `routes\google.js` and logic in `controller\google.js`
+- Check routes in [routes\google.js](https://github.com/vatsal2210/Google-Alexa-Middleware/blob/master/routes/google.js) 
+  
+- Find logic in [controller\google.js](https://github.com/vatsal2210/Google-Alexa-Middleware/blob/master/controller/google.js)
 
 #### Welcome Intent
 
