@@ -28,7 +28,7 @@ Select your Diagflow project and Go to `Fulfillment`
 
 Enable Webhook integration and copy your `ngrok` URL or `Lambda` URL.
 
-![Enable Webhook] (./assets/enable-webhook.png)
+![Enable Webhook](./assets/enable-webhook.png)
 
 ## Webhook
 
