@@ -1,5 +1,12 @@
-const { Suggestions, SimpleResponse, MediaObject, Image } = require('actions-on-google');
-const { constants } = require('../util/constants');
+const {
+    Suggestions,
+    SimpleResponse,
+    MediaObject,
+    Image
+} = require('actions-on-google');
+const {
+    constants
+} = require('../util/constants');
 const util = require('../util');
 
 /* Welcome Intent */
